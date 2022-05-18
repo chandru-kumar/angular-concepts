@@ -1,0 +1,7 @@
+
+<p>Event Binding</p>
+<input type="text" (input)="onTyping($event)">
+{{typedInput}}
+<button [disabled]="!status" (click)="onClickingButton()">Click me</button>
+<p [innerText]="status"></p>
+<hr>
