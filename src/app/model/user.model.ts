@@ -1,5 +1,5 @@
 export class User {
-
+    //ng generate class recipes/meal --type=model
     public id: number;
     public name: string;
 
