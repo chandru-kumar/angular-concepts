@@ -1,0 +1,9 @@
+<p>@Input usage - Custom Property Binding</p>
+    <app-user-list-item *ngFor="let user of listOfUsers" 
+    [user]="user"></app-user-list-item>
+<p>Note: Properties in Components are not bindable outside the component. Use @Input to expose the property to parent components and allow to bind.
+    Add alias to the bindable property by passing name in @Input("PassAnyAlias").
+
+    Link - https://angular.io/guide/inputs-outputs
+</p>
+<hr>

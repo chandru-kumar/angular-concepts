@@ -8,6 +8,8 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { UserModelUsageComponent } from './user-model-usage/user-model-usage.component';
+import { UserListComponent } from './at-input-decorator/user-list/user-list.component';
+import { UserListItemComponent } from './at-input-decorator/user-list/user-list-item/user-list-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { UserModelUsageComponent } from './user-model-usage/user-model-usage.com
     PropertyBindingComponent,
     EventBindingComponent,
     TwoWayBindingComponent,
-    UserModelUsageComponent
+    UserModelUsageComponent,
+    UserListComponent,
+    UserListItemComponent
   ],
   imports: [
     BrowserModule,
